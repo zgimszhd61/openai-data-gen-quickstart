@@ -18,6 +18,7 @@ def genAddr():
     print(completion.choices[0].message.content)
     return(completion.choices[0].message.content)
 
+
 ## 香港身份证生成.
 def getCardId():
     completion = client.chat.completions.create(
